@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap");
+:root {
+  --bg-primary: #080e1b;
+  --project-primary: #146c94;
+  --card-bg: #20262e;
+}
+
+body {
+  background-image: linear-gradient(to left, #2c3e50, #4ca1af);
+  font-family: "Fira Code", monospace;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+.a-text {
+  padding: 5px 8px;
+  border: 1px solid #044261;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+.a-text:hover {
+  background-color: #044261;
+}
+
+.btn-outline-project-primary {
+  color: var(--project-primary);
+  border-color: var(--project-primary);
+}
+
+.btn-outline-project-primary:hover {
+  color: white;
+  background: var(--project-primary);
+}
+
+.card {
+  background: var(--card-bg);
+  color: white;
+}
+.book:hover {
+  transform: scale(1.03);
+  transition: 0.5s;
+}
+.book_img {
+  display: flex;
+  justify-content: center;
+}
